@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px black;
+    margin-bottom: 1px;
+    background: white;
+}
+.nav-logo{
+    width: 200px;
+}
+.nav-profile{
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Ensure equal width and height for a perfect circle */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image fills the circle properly */
+    border: 2px solid #ddd;
+}
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    } 
+    .nav-logo{
+        width: 150px;
+    }
+    .nav-profile{
+        width: 80px;
+        height: auto;
+    }
+}
