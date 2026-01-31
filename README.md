@@ -53,7 +53,7 @@ ecommerce/ │ ├── client/ # React.js frontend │ ├── public/ # Sta
 
 ```bash
 # Clone the repo
-git clone https://github.com/hemanth-1116/e-commerce
+git clone https://github.com/mpraneeth18/e-commerce-app.git
 cd mern-ecommerce
 
 # Install server dependencies
